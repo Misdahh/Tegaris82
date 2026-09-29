@@ -1,0 +1,11 @@
+BUILD APK VIA GITHUB ACTIONS
+
+1. Buat repository baru di GitHub.
+2. Upload seluruh isi folder project ini ke repository (termasuk folder tersembunyi .github).
+3. Pastikan project memiliki Gradle Wrapper: gradlew, gradlew.bat, dan folder gradle/wrapper.
+   Jika belum ada, buka project di Android Studio lalu gunakan Gradle wrapper untuk membuatnya.
+4. Buka tab Actions di repository GitHub.
+5. Pilih workflow "Build TEGARIS82 APK", lalu klik Run workflow (atau push ke main/master).
+6. Setelah job selesai, buka hasil run dan unduh artifact "TEGARIS82-debug-apk".
+
+Catatan: Workflow memerlukan Gradle Wrapper. APK tidak dibuat saat ZIP ini disiapkan; GitHub Actions akan mencoba membangunnya setelah project diunggah. Login demo: miss / miss1. Ini prototipe lokal dan tidak terhubung ke WhatsApp.
